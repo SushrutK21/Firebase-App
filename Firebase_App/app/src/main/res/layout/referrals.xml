@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Editext for Search -->
+
+    <!-- List View -->
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="wrap_content"
+        android:layout_height="316dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/Msgbtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView" /><![CDATA[
+
+
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+
+    ]]>
+
+    <Button
+        android:id="@+id/network"
+        android:layout_alignParentBottom="true"
+
+        android:layout_width="77dp"
+        android:text= "My Networks"
+        android:textSize="5dp"
+        android:background="@android:color/transparent"
+
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/Notification"
+        android:layout_width="77dp"
+        android:text = "Notifications"
+        android:layout_height="wrap_content"
+        android:textSize="5dp"
+        android:background="@android:color/transparent"
+
+        android:layout_alignBaseline="@+id/network"
+        android:layout_alignBottom="@+id/network"
+        android:layout_toRightOf="@+id/network"
+        android:layout_toEndOf="@+id/network" />
+
+    <Button
+        android:id="@+id/Srchbuton"
+        android:layout_width="77dp"
+
+        android:text = "Search"
+        android:layout_height="wrap_content"
+        android:textSize="5dp"
+        android:background="@android:color/transparent"
+
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/referralbtn"
+        android:layout_toEndOf="@+id/referralbtn" />
+    <Button
+        android:id="@+id/referralbtn"
+        android:layout_width="77dp"
+        android:text = "My Referrals"
+
+        android:layout_height="wrap_content"
+        android:textSize="5dp"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/Notification"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Msgbtn"
+        android:layout_width="77dp"
+        android:text = "Messages"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:textSize="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Biz"
+        android:id="@+id/NewBiz"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Search Results"
+        android:id="@+id/textView"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_alignBottom="@+id/back"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+

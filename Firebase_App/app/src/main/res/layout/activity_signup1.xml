@@ -1,0 +1,156 @@
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/button"
+        android:background="@color/white"
+        android:layout_weight="0.11"
+        android:layout_alignParentRight="true"
+         />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next>"
+        android:id="@+id/button2"
+        android:layout_weight="0.11"
+        android:background="@color/white"
+        android:layout_gravity="right"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/space"/>
+
+    <TextView
+        android:id="@+id/SignUP"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_marginTop="0dp"
+        android:text="SIGN UP"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_weight="0.11"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.11" />
+
+</LinearLayout>
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button01"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:text="&lt;Back" />
+    <TextView
+        android:id="@id/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button02"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:text="Next>" />
+
+    <TextView
+        android:id="@+id/addbiz"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:text="SIGN UP"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_weight="0.11"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/button02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Sirname"
+        android:ems="10"
+        android:id="@+id/Sirname"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.11"
+        android:layout_below="@+id/Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:ems="10"
+        android:id="@+id/Name"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.11"
+        android:layout_below="@+id/Email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Email"
+        android:id="@+id/Email"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.11"
+        android:textCursorDrawable="@null"
+        android:layout_below="@+id/addbiz"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

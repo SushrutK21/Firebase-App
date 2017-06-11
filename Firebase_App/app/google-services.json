@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "664041586086",
+    "firebase_url": "https://womovu-57ecd.firebaseio.com",
+    "project_id": "womovu-57ecd",
+    "storage_bucket": "womovu-57ecd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664041586086:android:3a07d763cbef10d0",
+        "android_client_info": {
+          "package_name": "com.womovu.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664041586086-istlqafbidrp8p90p1v41hvr6l7dc4dq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGR2m1_4jFgn2Atri026eTkGKvBsJUpE4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664041586086:android:5d9e2c7a0e821780",
+        "android_client_info": {
+          "package_name": "com.example.cgi.my_home_circle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664041586086-istlqafbidrp8p90p1v41hvr6l7dc4dq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGR2m1_4jFgn2Atri026eTkGKvBsJUpE4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
