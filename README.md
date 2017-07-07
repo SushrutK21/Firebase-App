@@ -1,0 +1,3 @@
+# Firebase-App
+This app uses google API and Facebook API for logging in and storing the user data in firebase. It also provides other features such as page change, drop down , muti select etc.
+It also has features like list and search.
